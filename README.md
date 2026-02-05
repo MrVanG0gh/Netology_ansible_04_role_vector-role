@@ -13,11 +13,15 @@ Role Variables
 --------------
 
 ansible_architecture: = "x86_64"
+
 ansible_user_id: = "user"
+
 ansible_user_gid: = "1001"
 
 vector_url: "https://packages.timber.io/vector/0.33.1/vector-0.33.1-1.x86_64.rpm"
+
 vector_config_path: "/etc/vector"
+
 data_dir: "/var/lib/vector"
 
 Dependencies
@@ -28,16 +32,16 @@ Dependencies
 Example Playbook
 ----------------
 
-Including an example of how to use your role (for instance, with variables passed in as parameters) is always nice for users too:
-
-    - hosts: servers
-      roles:
-         - { role: username.rolename, x: 42 }
+```
+- hosts: vector
+     roles:
+      - role: vector-role
+```
 
 License
 -------
 
-BSD
+MIT
 
 Author Information
 ------------------
