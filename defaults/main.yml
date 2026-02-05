@@ -1,2 +1,4 @@
 ---
-# defaults file for vector-role
+ansible_architecture: = "x86_64"
+ansible_user_id: = "user"
+ansible_user_gid: = "1001"

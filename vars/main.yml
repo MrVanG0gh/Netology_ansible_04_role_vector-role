@@ -1,2 +1,5 @@
 ---
-# vars file for vector-role
+vector_url: "https://packages.timber.io/vector/0.33.1/vector-0.33.1-1.x86_64.rpm"
+vector_config_path: "/etc/vector"
+data_dir: "/var/lib/vector"
+
