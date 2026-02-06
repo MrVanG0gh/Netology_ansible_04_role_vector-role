@@ -1,8 +1,7 @@
-=======
 vector-role
 =========
 
-Installs Vector.
+Installs Vector
 
 Requirements
 ------------
@@ -12,13 +11,16 @@ Requirements
 Role Variables
 --------------
 
-|---------------------------|-----------------------------
-|  ansible_architecture     | Arch of the system (x86_64")
-|  ansible_user_id          | The name of the user (user)
-|  ansible_user_gid         | User`s GUID (1001)
-|  vector_url               | URL with thi dist
-|  vector_config_path       | Path for the config (/etc/vector)
-|  data_dir                 | Data dir (/var/lib/vector)
+```
+|---------------------------|------------------------------------|
+|  ansible_architecture     | Arch of the system (x86_64")       |
+|  ansible_user_id          | The name of the user (user)        |
+|  ansible_user_gid         | User`s GUID (1001)                 |
+|  vector_url               | URL with thi dist                  |
+|  vector_config_path       | Path for the config (/etc/vector)  |
+|  data_dir                 | Data dir (/var/lib/vector)         |
+|---------------------------|------------------------------------|
+```
 
 Dependencies
 ------------
