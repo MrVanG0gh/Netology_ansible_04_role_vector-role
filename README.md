@@ -1,4 +1,4 @@
-vector-role
+vector
 =========
 
 Installs Vector
@@ -32,7 +32,7 @@ Example Playbook
 ```
 - hosts: vector
      roles:
-      - role: vector-role
+      - role: vector
 ```
 
 License
