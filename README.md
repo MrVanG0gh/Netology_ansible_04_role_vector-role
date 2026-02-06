@@ -1,5 +1,5 @@
 =======
-Vector-role
+vector-role
 =========
 
 Installs Vector.
@@ -12,21 +12,16 @@ Requirements
 Role Variables
 --------------
 
-ansible_architecture: = "x86_64"
-
-ansible_user_id: = "user"
-
-ansible_user_gid: = "1001"
-
-vector_url: "https://packages.timber.io/vector/0.33.1/vector-0.33.1-1.x86_64.rpm"
-
-vector_config_path: "/etc/vector"
-
-data_dir: "/var/lib/vector"
+|---------------------------|-----------------------------
+|  ansible_architecture     | Arch of the system (x86_64")
+|  ansible_user_id          | The name of the user (user)
+|  ansible_user_gid         | User`s GUID (1001)
+|  vector_url               | URL with thi dist
+|  vector_config_path       | Path for the config (/etc/vector)
+|  data_dir                 | Data dir (/var/lib/vector)
 
 Dependencies
 ------------
-
 
 
 Example Playbook
