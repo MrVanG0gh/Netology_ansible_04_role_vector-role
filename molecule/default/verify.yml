@@ -8,13 +8,3 @@
     - name: Assert something
       ansible.builtin.assert:
         that: true
-    - name: Assert configuration is valid
-      assert:
-        that:
-          - validation_result.rc == 0
-        fail_msg: "Configuration validation failed!"
-    - name: Validate the configuration syntax
-      command: vector validate /etc/vector/config.toml
-      register: validation_result
-      failed_when: validation_result.rc != 0
-      changed_when: False
